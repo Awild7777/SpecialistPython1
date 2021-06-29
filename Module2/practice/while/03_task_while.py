@@ -10,3 +10,10 @@
 # 1234
 
 # TODO: your code here
+step = int(input("введите число "))
+iter = 1
+end = str()
+while iter <= step:
+    end = str(end) + str(iter)
+    print(end)
+    iter += 1
